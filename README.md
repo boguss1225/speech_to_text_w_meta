@@ -4,7 +4,7 @@ This implementation convert speech audio data (.wav) into text transcript with m
 ## Usage
 🌐 Google speech to text
 - first, get API key (json) from : https://cloud.google.com/speech-to-text/
-- create google bucket
+- create google bucket : https://cloud.google.com/storage/docs/creating-buckets
 - configure path and API path in google_run.py
 ```
 python google_run.py
