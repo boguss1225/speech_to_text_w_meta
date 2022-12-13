@@ -1,13 +1,12 @@
 from utils import *
 from google_utils import *
 
-FILE_PATH = "/home/mirap/0_DATABASE/TalkBank_dataset/train_assorted/Full_wave_enhanced_audio/cc"
-FILE_PATH = "/home/mirap/0_DATABASE/island_wav/test_set"
+FILE_PATH = "/path/to/database/source_dir"
 
-API_KEY = '/home/mirap/apikeys/speech2text/googleapikey-hm.json'
+API_KEY = '/path/to/api/dir/googleapikey.json'
 
-BUCKET_NAME = "speech2textutas_2"
-BUCKET_PATH = "dementia/"
+BUCKET_NAME = "google_bucket_name"
+BUCKET_PATH = "bucket_name/"
 
 # Get audio files from path
 files = check_file_path(FILE_PATH)

@@ -1,6 +1,6 @@
 # FILE_PATH = "/home/mirap/0_DATABASE/TalkBank_dataset/train_assorted/Full_wave_enhanced_audio/cd/"
-FILE_PATH = "/home/mirap/0_DATABASE/island_wav/1_picture_describing_test/"
-DEEPSPEECH_MODEL_PATH = "/home/mirap/0_DATABASE/Mozila/deepspeech-0.9.3-models.pbmm"
+FILE_PATH = "/path/to/database/source_dir"
+DEEPSPEECH_MODEL_PATH = "/path/to/dir/with/model/deepspeech-0.9.3-models.pbmm"
 
 from utils import *
 from mozila_utils import *

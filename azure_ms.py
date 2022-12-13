@@ -1,4 +1,4 @@
-FILE_PATH = "/home/mirap/0_DATABASE/island_wav/1_picture_describing_test"
+FILE_PATH = "/path/to/database/source_dir"
 
 import time
 from utils import *
